@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".SelectTrainActivity">
+
+<TextView
+    android:id="@+id/textView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="34sp"
+    android:textStyle="bold"
+    android:textAllCaps="true"
+    android:textSize="17sp"
+    android:text="Select  train                                " />
+
+<ImageView
+    android:id="@+id/img"
+    android:layout_width="60dp"
+    android:layout_height="60dp"
+    android:layout_below="@+id/textView"
+    android:layout_alignStart="@+id/textView"
+    android:layout_alignLeft="@+id/textView"
+    android:layout_marginStart="10dp"
+    android:layout_marginTop="98dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginBottom="10dp"
+    android:src="@drawable/ic_baseline_directions_railway_24"/>
+
+<Button
+    android:id="@+id/button"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+
+    android:layout_below="@+id/textView"
+    android:layout_alignTop="@id/img"
+    android:layout_alignParentEnd="true"
+
+    android:layout_centerInParent="true"
+
+    android:layout_marginLeft="18dp"
+    android:layout_marginTop="-4dp"
+    android:layout_marginEnd="12dp"
+    android:layout_marginRight="21dp"
+    android:layout_toRightOf="@id/img"
+    android:background="@drawable/custom_dialog"
+    android:text="Vaigai Express           mdu to egmore        time:7.00AM" />
+
+</RelativeLayout>
